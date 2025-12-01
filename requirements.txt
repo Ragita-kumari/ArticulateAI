@@ -1,0 +1,6 @@
+torch
+torchvision
+torchaudio
+numpy
+opencv-python
+matplotlib
