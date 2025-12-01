@@ -1,0 +1,94 @@
+# =========================
+#  Python / AI-ML .gitignore
+# =========================
+
+# --- Python cache & build ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+.env/
+env/
+.venv/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.nbconvert/
+
+# --- Datasets & big files ---
+data/
+dataset/
+datasets/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.zip
+*.gz
+*.tar
+*.tar.gz
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.joblib
+*.mp4
+*.mpg
+*.wav
+*.mp3
+*.flac
+
+# --- Model weights & checkpoints ---
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.bin
+
+# --- Training outputs ---
+logs/
+runs/
+wandb/
+tensorboard/
+lightning_logs/
+outputs/
+results/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Temporary / system ---
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+docker-data/
+*.pid
+
+# --- Environment / config secrets ---
+*.env
+*.ini
+*.cfg
+*.yaml
+*.yml
+.secrets/
