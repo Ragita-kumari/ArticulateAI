@@ -79,7 +79,7 @@ def load_model(num_classes):
 # --------------------------------------------------------
 # STREAMLIT UI
 # --------------------------------------------------------
-st.title("👄 Real-Time Lip Reading Demo (Custom Model)")
+st.title("Real-Time Lip Reading Demo (Custom Model)")
 st.write("Upload a mouth-cropped video clip recorded with your Tkinter tool.")
 
 # Load custom classes

@@ -19,7 +19,7 @@ os.makedirs("checkpoints", exist_ok=True)
 # Settings
 # ----------------------------------------------------------------------
 TOTAL_EPOCHS = 60
-ADDITIONAL_IF_PAST = 10  # if checkpoint epoch >= TOTAL_EPOCHS, continue by this many more
+ADDITIONAL_IF_PAST = 15 # if checkpoint epoch >= TOTAL_EPOCHS, continue by this many more
 
 # ----------------------------------------------------------------------
 # Collate function (batch sync)
